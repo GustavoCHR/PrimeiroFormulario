@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <!-- Pedir nome, cpf, data de nascimento, telefone, email e senha -->
+    <main>
+        <div>
+            <h1>Formulário</h1>
+        </div>
+        <form action="">
+                <div class="grupoFormulario">
+                    <div>
+                        <label>
+                            Nome:
+                            <div>
+                                <input class="inputNome" type="text" required placeholder="Digite seu nome">
+                            </div>
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label>
+                            CPF:
+                            <div>
+                                <input class="inputCpf" type="number" required placeholder="Digite seu CPF">
+                            </div>
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label>
+                            Data de Nascimento:
+                            <div>
+                                <input class="inputDataNascimento"type="date" required placeholder="dd/mm/aa">
+                            </div>
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label>
+                            Telefone:
+                            <div>
+                                <input class="inputTelefone" type="number" placeholder="Digite seu telefone (com DDD)">
+                            </div>
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label>
+                            Email:
+                            <div>
+                                <input class="inputEmail" type="email" required placeholder="Digite seu email">
+                            </div>
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label>
+                            Senha:
+                            <div>
+                                <input class="inputSenha" type="password" required placeholder="Digite sua senha">
+                            </div>
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label>
+                            Confirme sua Senha:
+                            <div>
+                                <input class="inputConfirmSenha" type="password" required placeholder="Digite sua senha">
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="container-botoes">
+                            <div>
+                                <button class="botaoLimpar" type="reset">
+                                    Limpar
+                                </button>
+                            </div>
+
+                            <div>
+                                <button class="botaoCancelar" type="reset">
+                                    Cancelar
+                                </button>
+                            </div>
+                            
+                            <div>
+                            <button class="botaoEnviar" type="submit">
+                                Enviar
+                                </button>
+                            </div>
+                    </div>
+                </div>
+        </form>
+    </main>
+   
+    <footer>
+        <p>&copy; <a href="https://github.com/GustavoCHR" target="blank">Site</a> criado por <a href="https://www.linkedin.com/in/gustavochristofollicorrea/" target="blank">Gustavo Christofolli Corrêa</a></p>
+    </footer>
+</body>
+</html>
